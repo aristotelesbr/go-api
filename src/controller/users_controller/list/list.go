@@ -1,0 +1,9 @@
+package list
+
+import "github.com/gin-gonic/gin"
+
+func Call(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"message": "list users",
+	})
+}
